@@ -1,0 +1,13 @@
+# Ignore Qt Build folders
+build/
+build-*/
+*.pro.user
+CMakeLists.txt.user
+.qtc_clangd/
+
+# Ignore compiled files
+*.obj
+*.o
+*.exe
+*.dll
+*.app
